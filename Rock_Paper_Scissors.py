@@ -16,7 +16,7 @@ def main():
         user_move = input("Type \"rock\", \"paper\" or \"scissors\" then press enter: ")
         # check attack is valid
         while user_move != 'rock' and user_move != 'paper' and user_move != 'scissors':
-            print("Please enter a valid attack")
+            print("Please enter a valid move")
             user_move = input("Type \"rock\", \"paper\" or \"scissors\" then press enter: ")
 
         opponent_move = opponent()
@@ -51,7 +51,7 @@ def main():
             print("Ok, lets play again soon!")
             game = False
         else:
-            print("Ok, let's play another game!")
+            print("Ok, lets play another game!")
 
 
 if __name__ == "__main__":
